@@ -1,13 +1,11 @@
 import React from 'react';
-import Parents from "./components/Parents";
-import Child from "./components/Child";
+import ParentTwo from "./components/ParentTwo";
+
 
 function App() {
   return (
       <div>
-        <Parents>
-          <Child/>
-        </Parents>
+       <ParentTwo/>
       </div>
   );
 }
